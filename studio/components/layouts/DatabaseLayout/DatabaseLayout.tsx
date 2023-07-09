@@ -63,13 +63,13 @@ const DatabaseLayout = ({ title, children }: PropsWithChildren<DatabaseLayoutPro
     }
   }, [isLoading])
 
-  if (error) {
-    return (
-      <ProjectLayout>
-        <Error error={error} />
-      </ProjectLayout>
-    )
-  }
+  // if (error) {
+  //   return (
+  //     <ProjectLayout>
+  //       <Error error={error} />
+  //     </ProjectLayout>
+  //   )
+  // }
 
   return (
     <ProjectLayout
